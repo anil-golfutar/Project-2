@@ -1,4 +1,4 @@
-import { tweetsData } from '/js/data.js'
+import { tweetsData } from 'data.js'
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 
@@ -58,7 +58,7 @@ function handleTweetBtnClick(){
         console.log(tweetsData[0]);
         tweetsData.unshift({
             handle: `@Scrimba`,
-            profilePic: `images/scrimbalogo.png`,
+            profilePic: `scrimbalogo.png`,
             likes: 0,
             retweets: 0,
             tweetText: tweetInput.value,
